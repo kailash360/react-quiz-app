@@ -1,0 +1,13 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.difficulty-section {
+    align-items: center;
+}
+
+.animate__backInUp {
+    animation-delay: 0s;
+    animation-duration: 1.5s;
+}

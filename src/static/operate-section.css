@@ -1,0 +1,66 @@
+.operate-section {
+    margin-top: 1.5em;
+    height: fit-content;
+    width: inherit;
+    position: absolute;
+    top: 11em;
+    font-size: 170%;
+    border-top: 1px solid rgb(0, 128, 111);
+    padding-top: 0.3em;
+}
+
+.operate {
+    padding: 0.1em 1em;
+    border-radius: 10px;
+    outline: none;
+    font-size: 100%;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(0, 128, 117);
+}
+
+.operate:active {
+    border: 2.5px solid rgb(0, 13, 128);
+}
+
+#submit {
+    float: left;
+    margin-left: 1em;
+}
+
+#next {
+    float: right;
+    margin-right: 1em;
+}
+
+.all-done {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+@media screen and (max-width:580px) {
+    .operate-section {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .operate-section {
+        display: grid;
+        grid-template-columns: 27% 46% 27%;
+        height: fit-content;
+        font-size: 120%;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .operate {
+        height: fit-content;
+        margin: 0px auto;
+    }
+    #submit {
+        margin: 0px;
+        margin-left: 5px;
+        text-align: center;
+        padding: 2px 0px;
+    }
+}

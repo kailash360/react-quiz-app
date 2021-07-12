@@ -1,0 +1,24 @@
+.score-container {
+    width: fit-content;
+    height: 200px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+@keyframes scale-up-hor-center {
+    0% {
+        transform: scaleX(0.4);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.score-container p {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: auto;
+    animation: scale-up-hor-center 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation-delay: 0.2s;
+}
